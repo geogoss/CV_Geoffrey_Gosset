@@ -3,23 +3,28 @@ body{
  background-color: rgb(154, 147, 148);
  
 }
-
-.block1 {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    background-color:rgb(88, 199, 60);
-    
-    
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
+/* Block entête avatar */
 
-.block2 {
-    background-color: aquamarine;
-    /* width: 20%; */
-    color:rgb(233, 242, 238);
+.blockAvatar {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    background-color:rgb(34, 60, 99);
+    color: aliceblue;
+}
 
+.professionalTrainings{
+    margin-left: 15%;
+}
+
+.contact{
+    margin-right: 15%;
 }
 
 
@@ -31,3 +36,62 @@ body{
     max-height: 100%;
     border-radius: 50%;
 }
+
+
+
+/* Block central */
+
+.blockCentral{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.imageCentrale {
+    width: 20%;
+    
+}
+
+.carteMere {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 3eme block */
+
+.row {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    color: aliceblue;
+    height: 200px;
+  }
+
+  .titre {
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+
+
