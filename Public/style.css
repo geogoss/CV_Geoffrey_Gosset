@@ -72,7 +72,7 @@ width: 40%;
 
 
 
-/* 3eme block */
+/* 3eme block Education */
 
 .education{
   display: flex;
@@ -82,9 +82,181 @@ width: 40%;
 
 
 
-  /* 4eme block */
+  /* 4eme block Languages */
 
   
+
+/* 5eme block Passions */
+
+.imgPassions{
+  width: 50px;
+}
+.passionsGeneral{
+  width: 40%;
+}
+
+.passionsGroupe1{
+  display: flex;
+  justify-content: space-around;
+}
+.passionsGroupe2{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 6eme block software skills */
+.boxGeneral{
+width: 40%;}
+
+.boxGroupe1{
+  display: flex;
+  justify-content: space-around;
+}
+.boxGroupe2{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* box caractères identiques */
+.box{
+  /* background-color: white; */
+  width: 100px;
+  /* padding-left: 1%;
+  padding-top: 1%; */
+  border-radius: 20px;
+  position: relative;
+ }
+ 
+ svg circle{
+   fill: none;
+   stroke: rgb(34, 60, 99);
+   stroke-width: 3px;
+   transform: translate(5px, 5px);
+   stroke-dasharray: 250;
+   stroke-dashoffset: 250;
+   stroke-linecap: round;
+ 
+ }
+ 
+ svg circle:nth-child(1){
+   stroke: aliceblue ;
+   stroke-dashoffset: 0;
+ }
+ 
+ .skillsBox{
+   font-size: 1em;
+   font-weight: 500;
+   color: rgb(34, 60, 99);
+ }
+ 
+
+/* box1 */
+.circleBox1:nth-child(2){
+  animation: circle1 4s forwards;
+}
+
+@keyframes circle1 {
+  to {
+    stroke-dashoffset: 15;
+  }
+}
+
+.skillsBox1{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+
+ /* box2 */
+
+.circleBox2:nth-child(2){
+  animation: circle2 4s forwards;
+}
+
+@keyframes circle2 {
+  to {
+    stroke-dashoffset: 50;
+  }
+}
+
+.skillsBox2{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+
+/* box3 */
+.circleBox3:nth-child(2){
+  animation: circle3 4s forwards;
+}
+
+@keyframes circle3 {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+.skillsBox3{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+
+/* box4 */
+.circleBox4:nth-child(2){
+  animation: circle3 4s forwards;
+}
+
+@keyframes circle3 {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+
+.skillsBox4{
+  position: absolute;
+  top: 20%;
+  left: 18%;
+}
+
+
+/* box5 */
+.circleBox5:nth-child(2){
+  animation: circle5 4s forwards;
+}
+
+@keyframes circle5 {
+  to {
+    stroke-dashoffset: 30;
+  }
+}
+
+.skillsBox5{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+/* box6 */
+.circleBox6:nth-child(2){
+  animation: circle6 4s forwards;
+}
+
+@keyframes circle6 {
+  to {
+    stroke-dashoffset: 180;
+  }
+}
+
+.skillsBox6{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
 
 
 
