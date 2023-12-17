@@ -1,12 +1,27 @@
 
 body{
     
- background-color: rgb(154, 147, 148);
+ /* background-color: rgb(154, 147, 148); */
+ background-color: rgb(34, 60, 99);
+ width: auto;
  
 }
 a{
     text-decoration: none;
     color: aliceblue;
+}
+
+.container{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+/* titre */
+.titreFonctions{
+  display: flex;
+  justify-content: center;
 }
 
 /* Block entête avatar */
@@ -25,7 +40,16 @@ a{
     width: 20%;
     text-align: center;
   }
+
+  .briefcase{
+    width: 50px;
+  }
   
+  .groupe_briefcase{
+    display: flex;
+    justify-content: space-around;
+  }
+
   .contact{
     margin-right: 15%;
     width: 20%;
@@ -51,28 +75,22 @@ a{
 
 
 /* Block central */
-.grid-container {
-  margin-top: 10%;
-  display: grid;
-  grid-template-columns: auto auto auto;
+.imgBlockCentral{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
   background-color: rgb(34, 60, 99);
-  padding: 20px;
 }
-.grid-item {
-  background-color: rgb(34, 60, 99);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+
+
+.imgCenter {
+  width: 40%;
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 
-.imgCenter {
-width: 40%;
-}
-
-
-
-/* 3eme block Education */
 
 .education{
   display: flex;
@@ -81,55 +99,28 @@ width: 40%;
 
 
 
-
-  /* 4eme block Languages */
-
-  
-
-/* 5eme block Passions */
-
-.imgPassions{
-  width: 50px;
-}
-.passionsGeneral{
-  width: 40%;
-}
-
-.passionsGroupe1{
-  display: flex;
-  justify-content: space-around;
-}
-.passionsGroupe2{
-  display: flex;
-  justify-content: space-around;
-}
-
 /* 6eme block software skills */
 .boxGeneral{
-width: 40%;}
+  display: flex;
+  justify-content: space-around;
+}
 
-.boxGroupe1{
-  display: flex;
-  justify-content: space-around;
-}
-.boxGroupe2{
-  display: flex;
-  justify-content: space-around;
-}
 
 /* box caractères identiques */
 .box{
   /* background-color: white; */
   width: 100px;
-  /* padding-left: 1%;
-  padding-top: 1%; */
   border-radius: 20px;
   position: relative;
  }
  
+ .svgBox{
+  width: 150px;
+ }
+
  svg circle{
    fill: none;
-   stroke: rgb(34, 60, 99);
+   stroke: rgb(239, 163, 13);
    stroke-width: 3px;
    transform: translate(5px, 5px);
    stroke-dasharray: 250;
@@ -139,14 +130,15 @@ width: 40%;}
  }
  
  svg circle:nth-child(1){
-   stroke: aliceblue ;
+   /* stroke: aliceblue ; */
+   stroke: black;
    stroke-dashoffset: 0;
  }
  
  .skillsBox{
    font-size: 1em;
    font-weight: 500;
-   color: rgb(34, 60, 99);
+   color: aliceblue;
  }
  
 
@@ -248,14 +240,49 @@ width: 40%;}
 
 @keyframes circle6 {
   to {
-    stroke-dashoffset: 180;
+    stroke-dashoffset: 10;
   }
 }
 
 .skillsBox6{
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 10%;
+}
+
+
+/* block Passions */
+.passionsGeneral{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgPassions{
+  width: 50px;
+}
+
+.imgPassionsRunning{
+  width: 50px;
+  height: 50px;
+}
+
+.groupeCards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-img-top{
+  max-width: auto;
+  max-height: 120px;
+}
+
+.card{
+  background-color: rgb(34, 60, 99);
+  border: 0.1px solid black;
+  display: flexbox;
+  align-items: stretch;
+  
 }
 
 
