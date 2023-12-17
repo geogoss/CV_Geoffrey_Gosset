@@ -1,0 +1,54 @@
+body{
+    
+    /* background-color: rgb(154, 147, 148); */
+    background-color: rgb(34, 60, 99);
+    width: auto;
+    
+   }
+   a{
+       text-decoration: none;
+       color: aliceblue;
+   }
+
+/* titre entête---------- */
+.titreFonctions{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  /* ULB --------------*/
+.ulb{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid aliceblue;
+}
+
+/* Recherche Erasme------- */
+.recherche{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.introRecherche{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 320px;
+    
+}
+.imgRecherche{
+    max-width: auto;
+    max-height: auto;
+}
+
+.assistantErasme{
+    display: flex;
+    justify-content: space-around;
+}
+.diabetologie, .bacteriologie, .virologie{
+    align-items: center;
+}
+.imgDiabetologie, .imgBacteriologie, .imgVirologie{
+    width: 150px;
+}

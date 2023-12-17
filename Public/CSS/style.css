@@ -1,0 +1,290 @@
+
+body{
+    
+ /* background-color: rgb(154, 147, 148); */
+ background-color: rgb(34, 60, 99);
+ width: auto;
+ 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+
+/* titre */
+.titreFonctions{
+  display: flex;
+  justify-content: center;
+}
+
+/* Block entête avatar */
+
+.blockAvatar {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    background-color:rgb(34, 60, 99);
+    color: aliceblue;
+}
+
+.professionalTrainings{
+    margin-left: 15%;
+    width: 20%;
+    text-align: center;
+  }
+
+  .briefcase{
+    width: 50px;
+  }
+  
+  .groupe_briefcase{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact{
+    margin-right: 15%;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .imageAvatar{
+    width: 20%;
+  }
+  
+  .avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.ajustementFlex {
+  text-align: start;
+}
+
+
+/* Block central */
+.imgBlockCentral{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(34, 60, 99);
+}
+
+
+.imgCenter {
+  width: 40%;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.education{
+  display: flex;
+  justify-content: start;
+}
+
+
+
+/* 6eme block software skills */
+.boxGeneral{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* box caractères identiques */
+.box{
+  /* background-color: white; */
+  width: 100px;
+  border-radius: 20px;
+  position: relative;
+ }
+ 
+ .svgBox{
+  width: 150px;
+ }
+
+ svg circle{
+   fill: none;
+   stroke: rgb(239, 163, 13);
+   stroke-width: 3px;
+   transform: translate(5px, 5px);
+   stroke-dasharray: 250;
+   stroke-dashoffset: 250;
+   stroke-linecap: round;
+ 
+ }
+ 
+ svg circle:nth-child(1){
+   /* stroke: aliceblue ; */
+   stroke: black;
+   stroke-dashoffset: 0;
+ }
+ 
+ .skillsBox{
+   font-size: 1em;
+   font-weight: 500;
+   color: aliceblue;
+ }
+ 
+
+/* box1 */
+.circleBox1:nth-child(2){
+  animation: circle1 4s forwards;
+}
+
+@keyframes circle1 {
+  to {
+    stroke-dashoffset: 15;
+  }
+}
+
+.skillsBox1{
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+
+ /* box2 */
+
+.circleBox2:nth-child(2){
+  animation: circle2 4s forwards;
+}
+
+@keyframes circle2 {
+  to {
+    stroke-dashoffset: 50;
+  }
+}
+
+.skillsBox2{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+
+/* box3 */
+.circleBox3:nth-child(2){
+  animation: circle3 4s forwards;
+}
+
+@keyframes circle3 {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+.skillsBox3{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+
+/* box4 */
+.circleBox4:nth-child(2){
+  animation: circle3 4s forwards;
+}
+
+@keyframes circle3 {
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+
+.skillsBox4{
+  position: absolute;
+  top: 20%;
+  left: 18%;
+}
+
+
+/* box5 */
+.circleBox5:nth-child(2){
+  animation: circle5 4s forwards;
+}
+
+@keyframes circle5 {
+  to {
+    stroke-dashoffset: 30;
+  }
+}
+
+.skillsBox5{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+/* box6 */
+.circleBox6:nth-child(2){
+  animation: circle6 4s forwards;
+}
+
+@keyframes circle6 {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+.skillsBox6{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+
+/* block Passions */
+.passionsGeneral{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgPassions{
+  width: 50px;
+}
+
+.imgPassionsRunning{
+  width: 50px;
+  height: 50px;
+}
+
+.groupeCards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-img-top{
+  max-width: auto;
+  max-height: 120px;
+}
+
+.card{
+  background-color: rgb(34, 60, 99);
+  border: 0.1px solid black;
+  display: flexbox;
+  align-items: stretch;
+  
+}
+
+
+
+
