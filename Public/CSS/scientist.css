@@ -84,8 +84,21 @@ body{
 
 .imgEcologie, .imgLPGMP, .imgEthologie{
     float: right;
+    border-radius: 15%;
 }
 
+.imgEcologie2, .imgLPGMP2{
+    border: 1px white solid;
+    border-radius: 5%;
+}
+
+.imgEthologie2{
+    border-radius: 5%;
+}
+
+.backToTop{
+    margin-left: 90%;
+}
 
 .titreLPGMP, .titreEcologie{
     margin-top: 6%;
@@ -99,9 +112,7 @@ body{
     height: 300px;
 }
 
-.textLPGMP{
-    width: 90%;
-}
+
 
 footer{
     margin-top: 2%;
